@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./icon/camiseta.svg" type="image/x-icon" />
+    <title>Retro Futbol</title>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <header>
+      <!--MENU NAVEGACION-->
+      <nav class="nav">
+        <img src="./img/logo.png" alt="logo-retro-futbol" class="logo" />
+        <ul class="nav-list">
+          <a href="index.html"><li>Inicio</li></a>
+          <a href="index.html#productos"><li>Camisetas</li></a>
+          <a href="index.html#resenas"><li>Reseñas</li></a>
+          <a href="contacto.html"><li>Contacto</li></a>
+        </ul>
+
+        <!-- CARRITO Y BUSQUEDA -->
+        <div class="icon-container">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </nav>
+      
+      <!--FORMULARIO-->
+      <h2 class="contact-title">Contactanos</h2>
+      <div class="contacto">
+        <form action="https://formspree.io/f/mvgoobng" method="POST">
+            <!--NOMBRE-->
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+
+            <!--APELLIDO-->
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" placeholder="Ingrese su apellido" required>
+
+            <!--CORREO ELECTRONICO-->
+            <label for="mail">Correo Electronico</label>
+            <input type="email" id="mail" placeholder="Ingrese su correo electronico" required>
+
+            <!--MENSAJE-->
+            <label for="text">Mensaje</label>
+            <textarea name="mensaje" placeholder="Mensaje..."></textarea>
+
+            <!--ENVIAR-->
+            <input type="submit" value="Enviar" name="enviar" class="contact__form--button">
+        </form>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6568.03341709904!2d-58.38157!3d-34.603739!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1730741309354!5m2!1ses-419!2sar" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </header>

@@ -1,0 +1,10 @@
+/*------ CONTACTO ------*/
+@media (max-width: 1200px) {
+    .contacto {
+        flex-direction: column;
+    }
+
+    form {
+        margin: auto;
+    }
+}
